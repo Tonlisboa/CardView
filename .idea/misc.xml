@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tonli/StudioProjects/CardView/app/src/main/res/drawable/ic_comentario_cinza.xml" value="0.1835" />
+        <entry key="..\:/Users/tonli/StudioProjects/CardView/app/src/main/res/drawable/ic_gostei_cinza.xml" value="0.1835" />
+        <entry key="..\:/Users/tonli/StudioProjects/CardView/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/tonli/StudioProjects/CardView/app/src/main/res/layout/postagem_detalhe.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
