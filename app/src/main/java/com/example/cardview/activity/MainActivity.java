@@ -5,25 +5,29 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.widget.LinearLayout;
 
 import com.example.cardview.R;
 import com.example.cardview.adapter.PostagemAdapter;
 import com.example.cardview.model.Postagem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerPostagem;
     //Criando uma lista para exibir as postagens a partir de uma classe
+    private List<Postagem> postagens = new ArrayList<>();
 
-    private List<Postagem> postagens;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         recyclerPostagem = findViewById(R.id.recyclerPostagem);
         //Definir um Layout para o RecyclerView
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        layoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerPostagem.setLayoutManager(layoutManager);
 
         //Definir um Adapter
